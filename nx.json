@@ -1,0 +1,19 @@
+{
+  "extends": "@nrwl/workspace/presets/npm.json",
+  "npmScope": "smile",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "eslint-config-smile-base": {},
+    "eslint-config-smile-typescript": {}
+  }
+}

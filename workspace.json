@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "projects": {
+    "eslint-config-smile-base": {
+      "root": "packages/eslint-config-smile-base"
+    },
+    "eslint-config-smile-typescript": {
+      "root": "packages/eslint-config-smile-typescript"
+    }
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/workspace"
+  }
+}
