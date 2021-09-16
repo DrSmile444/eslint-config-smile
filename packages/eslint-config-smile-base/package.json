@@ -1,0 +1,39 @@
+{
+  "name": "@smile/eslint-config-smile-base",
+  "version": "1.0.0",
+  "description": "Smile's config based on Airbnb and Prettier, used in MOC",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DrSmile444/eslint-config-smile"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "airbnb",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "prettier",
+    "smile",
+    "moc"
+  ],
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.16.0 || ^6.8.0 || ^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}
